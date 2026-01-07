@@ -30,7 +30,7 @@ yarn-error.*
 
 # local env files
 .env*.local
-.env  # ← ADD THIS LINE (most important!)
+.env
 .env.development
 .env.production
 .env.test
@@ -42,12 +42,12 @@ yarn-error.*
 /ios
 /android
 
-# Firebase/Google files (add these)
+# Firebase/Google files
 google-services.json
 GoogleService-Info.plist
 firebase.json
 
-# IDE files (optional but recommended)
+# IDE files
 .vscode/
 .idea/
 *.swp
